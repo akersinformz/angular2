@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "system",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "removeComments": true,
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    // Note: Using typescript@next to provide the paths option
+    // this will allow tsconfig file to set the location of the type 
+    // definitions.  STILL NOT WORKING YET.  Install the packages
+    // via NPM for now to provide typing.
+    "paths": {
+      "angular2/*": ["./jspm_packages/npm/angular2@2.0.0-beta.15/*"]
+    }
+}
